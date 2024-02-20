@@ -30,8 +30,7 @@
         {
             foreach (var product in Products)
             {
-                Console.WriteLine("Product is {0}, Price is{1}", product.Brand, product.Brand);
-                Console.WriteLine();
+                Console.WriteLine("{0}, Price = {1}", product.Brand, product.Price);
             }
         }
         private void GenerateNumber()
